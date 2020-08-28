@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Quinta pantalla </title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<!-- boostrap para el modal desplegable -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+	<div class="contenedor" id="quinta-pantalla">
+		
+
+		<header>
+
+			<h3> APP </h3> 
+			<p>Entrega 27/8 </p>
+
+			<div class="fotos">
+				
+				<img src="img/foto1.png" height="40px">
+
+				<img src="img/foto2.png" height="40px">
+
+				<img src="img/foto3.png" height="40px">
+
+				<img src="img/foto4.png" height="40px">
+
+			</div>
+
+
+		</header>
+
+
+
+
+		<div class="entrega">
+			
+			<p>Datos entrega </p>
+
+			<input type="text" placeholder="- añadir descripcion">
+		
+		</div>
+
+
+
+		<div class="archivos">
+			
+			<p> Archivos <img src="img/clip.png" height="15px"><p>
+
+			
+			<!-- desplegable boton --> 
+
+			<button id="desplegable2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+
+			<img src="img/archivos.png" height="20rem" class="img-fluid">	
+			</button>
+
+		</div>
+
+	
+			<p class="comentario-titulo">Comentarios 	<img src="img/comentarios.png" height="15px;"> </p>
+
+
+
+	<div class="comentarios"> 
+	
+
+			<img src="img/foto2.png" height="50px" >
+			
+			<p> Dani <br>
+			+ añadir comentario </p>
+
+		
+
+	</div>
+
+<!-- Desplegable -->
+
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+
+				    <div class="modal-content">
+				     
+				      <div class="modal-header">
+
+				        <h5 class="modal-title" id="exampleModalLongTitle">GALERÍA</h5>
+
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+				          <span aria-hidden="true">&times;</span>
+
+				        </button>
+
+				      </div>
+
+					<!-- cuerpo desplegable -->
+
+
+				      <div class="modal-body">
+				        
+				       <img src="img/galeria.jpg" height="300px">
+				       
+				       <img src="img/galeria.jpg" height="300px">
+
+				       <img src="img/galeria.jpg" height="300px">
+
+				      </div>
+
+			   <div class="modal-footer">			
+
+				        <button type="button" data-dismiss="modal" class="botones_desplegables">
+
+				        	<img src="img/tachito.png" height="35px" style="margin-right: 24rem;">
+
+				        </button>
+
+
+
+				        <button type="button" class="botones_desplegables"> 
+
+				        	<a href="sexta-pantalla.html">
+				        	<img src="img/tic.png" height="35px"></a>
+
+				        </button>
+
+				      </div>
+				     
+
+
+				    </div>
+				  </div>
+				</div>
+
+
+
+
+
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

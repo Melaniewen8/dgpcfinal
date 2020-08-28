@@ -1,0 +1,428 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+
+	font-family: 'Work Sans', sans-serif;
+	background-color: #F3F3F3;
+	display: flex;
+	justify-content: center;
+
+
+
+}
+
+/* Contenedor tamaño de celu, para toda la app */
+
+.contenedor {
+
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	width:  45vh;
+	background-color: white;
+	box-shadow: 3px 5px 3px 3px lightgrey;
+	text-align: center;
+	border-radius: 30px; 
+	flex-wrap: nowrap;
+}
+
+/* Pantalla 1 */
+
+.primera-pantalla h4{
+
+	font-weight: 300;
+	color: #0080AD;
+	font-size: 1.2rem;
+
+}
+
+
+/* Pantalla 2 */
+
+.logueo {
+
+	display: block;
+	text-align: center;
+
+
+}
+
+.logueo input{
+
+
+	width: 70%;
+	margin: 1rem;
+	padding: 0.7rem;
+	border-radius: 5px;
+	border: solid 1px #CAC8C8;
+
+}
+
+.ingresar{
+
+	margin:auto;
+	text-transform: uppercase;
+	display: block;
+	background-color: white;
+	padding: 12px;
+	text-align: center;
+	width: 35%;
+	color: #0182B2;
+	border-radius: 8px;
+	box-shadow: 1px 1px 2px 2px #CAC8C8;
+	border: none;
+	margin-top: 90px;
+	font-size: 0.8rem;
+
+
+}
+.ingresar a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.ingresar:hover{
+	background-color: #0182B2;
+	color: white;
+}
+
+.checkbox {
+
+	display: flex;
+	width: 90%;
+	align-items: center;
+	color: grey;
+	font-size: 0.9rem;
+	justify-content: flex-start;
+	margin-left: -75px;
+	margin-bottom: 15px;
+	margin-top: -15px;
+}
+
+.checkbox label {
+	margin-left: -130px;
+}
+
+.checkbox2 {
+
+	display: flex;
+	width: 70%;
+	font-size: 0.7rem;
+	color: grey;
+	margin-top: 10px;
+	align-items: center;
+
+}
+.checkbox2 label {
+
+	
+	margin-left: -100px;
+}
+
+
+
+/* Pantalla 3 */
+
+
+#tercer-contenedor{
+
+background-image: linear-gradient(to top, #e8f3f9 0%, white 100%);
+
+}
+
+
+#titular{
+
+	display: flex;
+	align-self: flex-start;
+	justify-content: center;
+	font-weight: 300;
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+
+
+
+.tercera-pantalla .tareas{
+
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+	width: 90%;
+	border-radius: 15px;
+	border-left: solid 7px #EC646D;
+	padding: 15px;
+	padding-top: 30px;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+
+.tercera-pantalla #naranja {
+
+	border-left: solid 7px #F7A746;
+
+}
+
+.fecha-rojo {
+
+	color: #FF7170;
+	margin-right: 3rem;
+}
+
+
+.fecha-naranja {
+
+	color: #F2AC57;
+	margin-right: 70px;
+
+
+}
+
+/* Pantalla 3 */
+
+
+footer {
+
+display: flex;
+align-self: flex-end;
+
+}
+
+
+.boton {
+
+	margin-top: 50px;
+}
+
+#desplegable{
+
+	border: none;
+	background-color: #F2F6F9;
+	margin-top: 50px;
+	margin-bottom: 6em;
+
+
+} 
+
+#desplegable2{
+
+	border: none;
+	background-color: white;
+
+} 
+
+/* Ajustes desplegable */
+
+
+.modal-footer{
+	
+	display: flex;
+	justify-content: space-around;
+}
+
+.botones_desplegables{
+
+	border:none;
+	background-color: white;
+}
+
+.modal-title{
+
+
+	color: #0780AD;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	margin-left: 10px;
+	font-size: 1.3rem;
+
+}
+.modal-body input::placeholder{
+
+	color: #0780AD;
+	font-weight: lighter;
+}
+
+.modal-body input{
+
+	margin: 5px;
+	border-bottom: 0.5px solid #008999;
+	background-color: white;
+
+
+}
+
+
+
+/* Cuarta pantalla */
+
+
+
+.tercera-pantalla a{
+	text-decoration: none;
+}
+
+#tarea-creada {
+
+	background-color: #FF7170;
+	color: white;
+
+}
+#tarea-creada p{
+
+	margin-right: 65px; }
+
+
+
+
+/* Quinta pantlla */
+
+#quinta-pantalla{
+
+
+	display: block;
+	background-image: linear-gradient(45deg, #fad0c4 0%,  #EA5F6B 99%, #EA5F6B 100%);	
+	color: white;
+	text-align: left;
+	padding-left: 3rem;
+	padding-top: 3rem;
+
+
+}
+
+#quinta-pantalla header{
+
+
+	padding-bottom: 10px;
+
+
+}
+
+#quinta-pantalla header h3{
+
+
+	font-size: 2rem;
+	font-weight: lighter;
+
+}
+
+
+.archivos {
+
+	padding-top: 20px;
+
+}
+
+
+.comentarios {
+
+
+	display: flex;
+	align-items: center;
+	background-color: white;
+	height: 6rem;
+	width: 90%;
+	border-radius: 10px;
+	padding: 15px;
+	margin-top: 15px;
+	color: #0780AD;
+
+
+}
+
+.comentario-titulo{
+	color: black;
+	margin-top: 2rem;
+}
+
+.comentarios p{
+
+	padding-left: 10px;
+}
+
+.fotos{
+
+	display: inline-block;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+
+}
+
+.entrega input{
+
+	display: block;
+	border-radius: 10px;
+	height: 80px;
+	width: 90%;
+	border: none;
+}
+
+
+.entrega input::placeholder{
+
+	color: #0780AD;
+	padding-left: 10px;
+
+}
+
+.entrega p{
+
+	margin-bottom: 15px;
+}
+
+
+
+/* Ajustes sexta pantalla */
+
+ #adjuntados img{
+
+ margin-right: 40px;
+
+ }
+
+
+#sexta-pantalla{
+
+
+	display: block;
+	background-image: linear-gradient(45deg, #fad0c4 0%,  #EA5F6B 99%, #EA5F6B 100%);	
+	color: white;
+	text-align: left;
+	padding-left: 3rem;
+	padding-top: 3rem;
+
+
+}
+
+#sexta-pantalla header{
+
+	padding-bottom: 10px;
+
+
+}
+
+#sexta-pantalla header h3{
+
+	font-size: 2rem;
+	font-weight: lighter;
+	padding-bottom: 10px;
+
+
+}
+
+
+
+
